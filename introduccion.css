@@ -1,0 +1,15 @@
+.introduccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  padding: 0px 350px;
+}
+
+.introduccion-informacion {
+  max-width: 400px;
+}
+.foto {
+  width:200px;
+  height: 200px;
+}
