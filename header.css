@@ -35,4 +35,14 @@ img {
 .pre{
   font-family: inherit;
 }
+@media (max-width: 760px) {
+  .navegation {
+    display: flex;
+    flex-direction: row;
+    *justify-content: space-between;
+    *align-items: center;
+    padding: 0 20px;
+  }
+}
+
 

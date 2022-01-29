@@ -12,11 +12,18 @@
     <link rel="stylesheet" href="./css/fondo.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/experiencia.css">
+    <link rel="stylesheet" href="./css/habilidades.css">
+    <link rel="stylesheet" href="./css/cursos.css">
+    <link rel="stylesheet" href="./css/contecto.css">
     <script src="./js/main.js"></script>
-
     <title>Evelyn Pardo Sanchez</title>
   </head>
   <body>
+    <button class="open-menu hamburguer" type="button">
+      <span class="hamburguer-box">
+        <span class="hamburguer-inner"></span>
+      </span>
+    </button>
     <header class="header">
       <nav class="navegacion">
         <a href="#" class="logo">
@@ -45,7 +52,7 @@
       <section class="sintaxis">
         <div class="introduccion">
           <div class="introduccion-informacion">
-            <h2> Soy Evelyn Pardo Sanchez</h2>
+            <h2> Hola, soy <br/> Evelyn Pardo Sanchez</h2>
             <p>
               Soy una estudiante de 4 semestre de la carrera de ingenieria en
               ensoftware, actualmente tengo 23 años de edad, estoy creando una
@@ -57,7 +64,7 @@
           <img class = "foto" src="./img/WhatsApp Image 2022-01-21 at 02.09.59.jpeg" alt=""/>
         </div>
       </section>
-      <section class="experiencia">
+      <section class="experiencias" id="experiencia">
         <div class="fondo">
           <div style="height: 150px; overflow: hidden;" >
             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -67,6 +74,13 @@
           </div>
         </div>
         </div>
+      <div class=" fondobajo"></div>
+      <div style="height: 150px; overflow: hidden;" class="fondobajo">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(0, 255, 21);">
+          </path>
+        </svg> >
+      </div>
       </section>
       <section class="experiencia">
         <h2>EXPERIENCIA</h2>
@@ -122,14 +136,16 @@
         <div class="esfera"></div>
       </div>
       <section id="habilidades"></section>
-      <section class="habilidades">
-        <div class="conjunto">
+      <section class="habilidad">
+        <div class="diferentes-habilidades">
           <h2>HABILIDADES</h2>
-          <ul class="fila1">
+          <ul class="horizontal">
             <li><a href="#">Python</a></li>
             <li><a href="#">JavaScript</a></li>
             <li><a href="#">CSS</a></li>
             <li><a href="#">HTML</a></li>
+            <li><a href="#">TypeScrip</a></li>
+            <li><a href="#">Django</a></li>
           </ul>
           <ul></ul>
         </div>
